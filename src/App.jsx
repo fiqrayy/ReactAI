@@ -97,7 +97,7 @@ function App() {
             type="button"
             className="bg-transparent border-none cursor-pointer">
             <img
-              src={language === "id" ? "../src/assets/indonesia.png" : "../src/assets/uk.png"}
+              src={language === "id" ? "/src/assets/indonesia.png" : "/src/assets/uk.png"}
               alt={language === "id" ? "Bahasa Indonesia" : "English"}
               className="h-6 w-6"
               title={language === "id" ? "Bahasa Indonesia" : "English"}
